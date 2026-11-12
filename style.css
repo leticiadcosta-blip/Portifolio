@@ -1,5 +1,144 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+}
+
+body {
+    background-color: #4759a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-login {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+
+.caixa-login {
+    background-color: #7e8af3;
+    padding: 40px 35px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+
+.icone-topo {
+    width: 60px;
+    height: 60px;
+    background-color: #9c82c4;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    margin: 0 auto 15px auto;
+}
+
+.caixa-login h1 {
+    color: #2c2c2c;
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.descricao {
+    color: #000000;
+    font-size: 0.92rem;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+
+.grupo-input {
+    margin-bottom: 20px;
+}
+
+.grupo-input label {
+    display: block;
+    font-weight: 600;
+    color: #444444;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.grupo-input input {
+    width: 100%;
+    padding: 13px 15px;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.grupo-input input:focus {
+    background-color: #ffffff;
+    border-color: #4290cf;
+    box-shadow: 0 0 0 4px rgba(94, 53, 177, 0.12);
+}
+
+.grupo-input input,
+.grupo-input select {
+    width: 100%;
+    padding: 13px 15px;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #333333;
+  
+   
+}
+
+.btn-entrar {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient( #4d7ee7, #4b65da);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 8px;
+    
+}
+
+.btn-entrar:hover {
+    box-shadow: 0 6px 15px rgba(93, 145, 223, 0.35);
+}
+
+
+.rodape-login {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #8ea0db;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+.rodape-login a {
+    color: #0061f3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rodape-login a:hover {
+    text-decoration: underline;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 14px;
+    color: #000000 ;
+    font-weight: normal ;
+    font-size: 0.85rem;
 }

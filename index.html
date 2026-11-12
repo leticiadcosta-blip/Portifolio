@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Login - Portfólio </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <main class="container-login">
+        <div class="caixa-login">
+         <h1>Bem-vindo(a)</h1>
+            <p class="descricao">Acesse sua conta para gerenciar seu portfólio</p>
+
+            <form >
+                <div class="grupo-input">
+                    <label for="email">E-mail institucional ou pessoal</label>
+                    <input type="email" id="email" name="email" placeholder="nome@aluno.com" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+                <div class="grupo-input">
+                    <label for="perfil">Perfil de Acesso</label>
+                    <select id="perfil" name="perfil" required>
+                        <option value="" disabled selected>Selecione uma opção...</option>
+                        <option value="aluno">Aluno</option>
+                        <option value="professor">Professor / Avaliador</option>
+                        <option value="visitante">Visitante</option>
+                    </select>
+                </div>
+
+                <a href="telainicial.html" class="btn-entrar">Entrar no Sistema</a>
+            </form>
+
+            <div class="rodape-login">
+                <p>Ainda não tem cadastro? <a href="#">Criar conta</a></p>
+                <a href="telainicial.html" class="voltar"> Voltar para o Portfólio </a>
+            </div>
+
+        </div>
+    </main>
+
 </body>
 </html>
