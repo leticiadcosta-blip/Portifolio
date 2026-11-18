@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #4759a5;
+    background-color: #e79999;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,27 +21,15 @@ body {
 
 
 .caixa-login {
-    background-color: #7e8af3;
+    background-color: #c78cb0;
     padding: 40px 35px;
     border-radius: 16px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
 }
 
 
-.icone-topo {
-    width: 60px;
-    height: 60px;
-    background-color: #9c82c4;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.8rem;
-    margin: 0 auto 15px auto;
-}
-
 .caixa-login h1 {
-    color: #2c2c2c;
+    color: #000000;
     font-size: 1.7rem;
     text-align: center;
     margin-bottom: 6px;
@@ -62,7 +50,7 @@ body {
 .grupo-input label {
     display: block;
     font-weight: 600;
-    color: #444444;
+    color: #000000;
     margin-bottom: 8px;
     font-size: 0.9rem;
 }
@@ -80,7 +68,7 @@ body {
 
 .grupo-input input:focus {
     background-color: #ffffff;
-    border-color: #4290cf;
+    border-color: #00070c;
     box-shadow: 0 0 0 4px rgba(94, 53, 177, 0.12);
 }
 
@@ -92,7 +80,7 @@ body {
     border: 2px solid #e0e0e0;
     border-radius: 8px;
     font-size: 0.95rem;
-    color: #333333;
+    color: #050505;
   
    
 }
@@ -100,8 +88,8 @@ body {
 .btn-entrar {
     width: 100%;
     padding: 14px;
-    background: linear-gradient( #4d7ee7, #4b65da);
-    color: #ffffff;
+    background: linear-gradient( #cf7786);
+    color: #000000;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -112,21 +100,21 @@ body {
 }
 
 .btn-entrar:hover {
-    box-shadow: 0 6px 15px rgba(93, 145, 223, 0.35);
+    box-shadow: 0 6px 15px rgba(255, 0, 0, 0.35);
 }
 
 
 .rodape-login {
     margin-top: 25px;
     padding-top: 20px;
-    border-top: 1px solid #8ea0db;
+    border-top: 1px solid #050505;
     text-align: center;
     font-size: 0.9rem;
-    color: #666666;
+    color: #000000;
 }
 
 .rodape-login a {
-    color: #0061f3;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
 }
